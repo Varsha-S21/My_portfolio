@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <header>
+     <div class="container">
+         <nav>
+             <div class="nav-brand">
+                 <a href="index.html">
+                     <img src="images/logo.jpg" alt="logo"/>
+                 </a>
+             </div>
+             <div class="menu-icon">
+                 <div class="line1"></div>
+                 <div class="line2"></div>
+                 <div class="line3"></div>
+             </div>
+             <ul class="nav-list">
+                 <li class="nav-item">
+                     <a href="#landing-page">
+                         <img src="images/prof.jpg" alt="img" class="portfolio-pic nav-link"/>
+                         <span class="caption nav-link">VARSHA S</span>
+                     </a>
+                 </li>   
+                 <li class="nav-item">
+                     <a href="#about" class="nav-link">About</a>
+                 </li>
+                  <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <!--<a href="#" target="_blank" class="nav-link">
+                      <i class="fa fa-instagram"></i>
+                    </a>-->
+                   <!-- <a href="#" target="_blank" class="nav-link">
+                      <i class="fa fa-facebook-square"></i>
+                    </a>-->
+                    <a href="https://github.com/Varsha-S21" target="_blank" class="nav-link">
+                      <i class="fa fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/varsha-s-5477a21ba/" target="_blank" class="nav-link">
+                        <i class="fa fa-linkedin-square"></i>
+                      </a>
+                  </li>    
+            </ul>
+         </nav>
+     </div>
+ </header>
+ <main>
+     <section id="landing-page" class="landing-page">
+         <div class="container">
+             <div class="main-message">
+                 <h2>VARSHA S </h2>
+                 <h3>Data Science Enthusiast</h3>
+                 <p>Python DataAnalysis SQL ML DL</p>
+                 <div class="intro-btn">
+                     <div class="cta">
+                        <a href="#contact" class="btn">Get In Touch</a>
+                    </div>
+                    <div class="cta">
+                      <a href="#projects" class="btn">My Projects</a>
+                    </div>
+                 </div>
+                 <div>
+                    <a href="#about" class="scroll-down">
+                      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </a>
+                  </div>
+             </div>
+         </div>
+     </section>
+     <section id="about" class="about">
+        <div class="container">
+          <div class="about-img">
+            <img
+              src="images/prof.jpg"
+              alt="Varsha"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-text-box">
+            <h2>Hello 👋🏽</h2>
+            <p>
+              I'm Varsha,a Enthusiastic fresher good in C/C++,PYTHON,
+              HTML/CSS, JAVASCRIPT, SQL. I'm a Data Science Enthusiast 
+              Although I'm still finding my way through competitive coding. 
+              welcome to my world. I am a programming enthusiast and I love working on new 
+              ideas and projects which enhance my knowledge.
+              Looking to start the career as a Machine
+              Learning Engineer, Data Analyst or entry level Software
+              Engineer with a reputed firm driven by technology.My zeal to learn something new everyday
+              helps me move forward and gain new insights and learn more.
+            </p>
+            <p>
+        
+            </p>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+        <hr />
+        <section id="projects" class="projects">
+            <div class="title-heading">
+              <h1>MY PROJECTS</h1>
+              <p>these are some of my recent projects</p>
+            </div>
+            <div class="project-item">
+              <div class="project-img has-margin-right">
+                <img src="images/deep_fake.jpeg" />
+              </div>
+              <div class="project-description">
+                <h2>Deep Fake using GANS</h2>
+                <p>
+                A Simple project using Deep Fake. You can import any video of your wish to try Fake with and also the actual picture 
+                should also be imported using iamgeio.imread for image and imageio.get_reader for video.
+                We can animate the picture using the video and fake it.
+                I have used various libraries such as imageio,numpy,matplotlib etc.,
+                </p>
+                <a href="https://github.com/Varsha-S21/DATA-SCIENCE-PROJECTS/blob/main/Deep_Fake_using_GANs.ipynb" class="project-link" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"> View Code</i></a
+                >
+              </div>
+            </div>
+    
+            <div class="project-item">
+              <div class="project-description has-margin-right">
+                <h2>AutoEncoders on Handwritten Digit Dataset</h2>
+                <p>
+                  This project is made using numpy,pandas,matplotlib,seaborn libraries and also
+                  by importing datasets,layers and models from keras.
+                  The data is encoded using hidden_layer_1 then this hidden_layer_1 is sent to bottle_neck.
+                  Then this hidden_layer_2 is formed using bottle_neck as the input and to for the output_layer hidden_layer_2
+                  is used as the input. binary_crossentropy loss function is used in this model.
+                  The training data is fit and decoded data is predicted with the test data.
+                  Finally,one can see the encoded data and decoded data separately and can compare with the actual data. 
+                </p>
+                <a href="https://github.com/Varsha-S21/DATA-SCIENCE-PROJECTS/blob/main/AUTOENCODERS_on_Handwritten_Digit_Dataset.ipynb" class="project-link" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"> View Code</i></a>
+              </div>
+              <div class="project-img">
+                <img src="images/autoencoders_digit.png" />
+              </div>
+            </div>
+    
+            <div class="project-item">
+              <div class="project-img has-margin-right">
+                <img src="images/ml.jpeg" />
+              </div>
+              <div class="project-description">
+                <h2>EMPLOYEE TURNOVER VALIDATION USING VARIOUS ALGORITHMS</h2>
+                <p>
+                  This project invloves libraries as numpy,pandas,matplotlib etc., The dataset is divided into
+                  train and test data Various Machine learning algorithms like Logistic Regression,Random Forest, Support Vector Machine are applied on the training data and the model is tested on the test data.
+                  The best ML algorithm for this validation is found by calculating the accuracies of these algorithms.
+                </p>
+                <a href="https://github.com/Varsha-S21/DATA-SCIENCE-PROJECTS/blob/main/EMPLOYEE%20TURNOVER%20VALIDATION%20USING%20VARIOUS%20ALGORITHMS.ipynb" class="project-link" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"> View Code</i></a>
+              </div>
+            </div>
+            <hr />
+          </section>
+          <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <img src="images/intouch.png" class="intouch" />
+            <div class="container">
+              <p>
+                <a href="mailto:varshasenthil.s21@gmail.com"
+                  ><i class="fa fa-envelope-open"></i> Mail</a
+                >
+              </p>
+              
+               <p>
+                <a href="https://www.linkedin.com/in/varsha-s-5477a21ba/" target="_blank"
+                  ><i class="fa fa-linkedin-square"> LinkedIn</i></a
+                >
+              </p>
+            </div>
+            <hr />
+          </section>
+          <footer>
+            <div class="footer-nav">
+              <a href="#landing-page" class="footer-nav-link">Home</a>
+              <a href="#about" class="footer-nav-link">About</a>
+              <a href="#projects" class="footer-nav-link">Projects</a>
+              <a href="#contact" class="footer-nav-link">Contact</a>
+            </div>
+            <div class="footer-social">
+              
+              <a href="https://github.com/Varsha-S21" target="_blank"><i class="fa fa-github"></i></a>
+              
+              <!--<a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a>-->
+            </div>
+          </footer>
+</main>
+        <script src="portfolio.js"></script>
+</body>
+</html>    
